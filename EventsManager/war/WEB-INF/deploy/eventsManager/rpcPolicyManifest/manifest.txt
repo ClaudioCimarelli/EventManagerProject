@@ -1,0 +1,2 @@
+# Module eventsManager
+# RPC service class, partial path of RPC policy file

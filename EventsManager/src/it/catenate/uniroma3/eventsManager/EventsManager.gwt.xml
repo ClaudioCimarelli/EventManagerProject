@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.5.0//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.5.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to="eventsManager">
+	<inherits name="com.google.gwt.user.User"></inherits>
+	<source path="client" />
+	<!--  We choose to use the built in CSS Chrome theme -->
+    <inherits name='com.google.gwt.user.theme.chrome.Chrome'/>
+    <!-- <inherits name='com.google.gwt.user.theme.clean.Clean'/>   -->
+    <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>  -->
+    <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/>  -->
+    
+	<inherits name="com.google.web.bindery.requestfactory.RequestFactory" />
+	<inherits name="com.google.gwt.place.Place"/>
+	<inherits name="com.google.gwt.activity.Activity"/>
+	<entry-point class="it.catenate.uniroma3.eventsManager.client.EventsManager"/>
+	<add-linker name="xsiframe"/>
+  <set-configuration-property name="devModeRedirectEnabled" value="true"/>
+  <set-property name="compiler.useSourceMaps" value="true" />
+</module>
