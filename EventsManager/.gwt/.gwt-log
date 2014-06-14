@@ -13943,3 +13943,1696 @@ Rebinding it.catenate.uniroma3.eventsManager.client.MainPanel_BinderImpl_designT
       Compiling...
          Compilation completed in 0,00 seconds
       Removing invalidated units
+Public resources found in...
+   [WARN] Error processing classpath URL 'file:/C:/Program Files/eclipse-kepler/plugins/com.google.gdt.eclipse.designer.hosted.2_2_3.1.2.r43x201307151442/gwt-dev-designtime.jar'
+java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Program Files/eclipse-kepler/plugins/com.google.gdt.eclipse.designer.hosted.2_2_3.1.2.r43x201307151442/gwt-dev-designtime.jar
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	at java.net.URL.toURI(Unknown Source)
+	at com.google.gwt.dev.resource.impl.ResourceOracleImpl.addAllClassPathEntries(ResourceOracleImpl.java:326)
+	at com.google.gwt.dev.resource.impl.ResourceOracleImpl.getAllClassPathEntries(ResourceOracleImpl.java:361)
+	at com.google.gwt.dev.resource.impl.ResourceOracleImpl.<init>(ResourceOracleImpl.java:405)
+	at com.google.gwt.dev.cfg.ModuleDef.normalize(ModuleDef.java:545)
+	at com.google.gwt.dev.cfg.ModuleDefLoader.doLoadModule(ModuleDefLoader.java:202)
+	at com.google.gwt.dev.cfg.ModuleDefLoader.loadFromResources(ModuleDefLoader.java:172)
+	at com.google.gwt.dev.cfg.ModuleDefLoader.loadFromClassPath(ModuleDefLoader.java:144)
+	at com.google.gwt.dev.shell.designtime.HostedModeSupportImpl.loadModule(HostedModeSupportImpl.java:85)
+	at com.google.gwt.dev.shell.designtime.HostedModeSupportImpl.createModuleSpaceHost(HostedModeSupportImpl.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethod(ReflectionUtils.java:869)
+	at com.google.gdt.eclipse.designer.hosted.tdt.HostedModeSupport.createModuleSpaceHost(HostedModeSupport.java:447)
+	at com.google.gwt.dev.shell.designtime.ModuleSpace.<init>(ModuleSpace.java:60)
+	at com.google.gdt.eclipse.designer.webkit.jsni.ModuleSpaceWebKit.<init>(ModuleSpaceWebKit.java:45)
+	at com.google.gdt.eclipse.designer.webkit.BrowserShellWebKit.setUrl(BrowserShellWebKit.java:85)
+	at com.google.gdt.eclipse.designer.hosted.tdt.HostedModeSupport.startup(HostedModeSupport.java:184)
+	at com.google.gdt.eclipse.designer.model.widgets.support.GwtState.initialize0(GwtState.java:248)
+	at com.google.gdt.eclipse.designer.model.widgets.support.GwtState.initialize(GwtState.java:206)
+	at com.google.gdt.eclipse.designer.uibinder.parser.UiBinderContext.createGWTState(UiBinderContext.java:467)
+	at com.google.gdt.eclipse.designer.uibinder.parser.UiBinderContext.createProjectClassLoader(UiBinderContext.java:328)
+	at org.eclipse.wb.internal.core.xml.model.EditorContext.createClassLoader(EditorContext.java:146)
+	at com.google.gdt.eclipse.designer.uibinder.parser.UiBinderContext.createClassLoader(UiBinderContext.java:285)
+	at org.eclipse.wb.internal.core.xml.model.EditorContext.initialize(EditorContext.java:100)
+	at com.google.gdt.eclipse.designer.uibinder.parser.UiBinderParser.parse(UiBinderParser.java:105)
+	at com.google.gdt.eclipse.designer.uibinder.editor.UiBinderDesignPage.parse(UiBinderDesignPage.java:56)
+	at org.eclipse.wb.internal.core.xml.editor.XmlDesignPage.internal_refreshGEF(XmlDesignPage.java:451)
+	at org.eclipse.wb.internal.core.xml.editor.XmlDesignPage.access$2(XmlDesignPage.java:443)
+	at org.eclipse.wb.internal.core.xml.editor.XmlDesignPage$7$1.run(XmlDesignPage.java:417)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4688)
+	at org.eclipse.wb.internal.core.xml.editor.XmlDesignPage$7.run(XmlDesignPage.java:414)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at org.eclipse.wb.internal.core.xml.editor.XmlDesignPage.internal_refreshGEF_withProgress(XmlDesignPage.java:435)
+	at org.eclipse.wb.internal.core.xml.editor.XmlDesignPage.internal_refreshGEF(XmlDesignPage.java:388)
+	at org.eclipse.wb.internal.core.xml.editor.UndoManager.refreshDesignerEditor(UndoManager.java:252)
+	at org.eclipse.wb.internal.core.xml.editor.UndoManager.activate(UndoManager.java:85)
+	at org.eclipse.wb.internal.core.xml.editor.XmlDesignPage.setActive(XmlDesignPage.java:171)
+	at org.eclipse.wb.internal.core.xml.editor.AbstractXmlEditor.pageChange(AbstractXmlEditor.java:652)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3080)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1772)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:279)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2886 units from cache.
+Compiling...
+   Compilation completed in 5,78 seconds
+Validating units:
+   [ERROR] Errors in 'file:/C:/Users/Claudio/git/EventManagerProject/EventsManager/.apt_generated/it/catenate/uniroma3/eventsManager/client/request/FactoryDeobfuscatorBuilder.java'
+      [ERROR] Line 7: No source code is available for type com.google.web.bindery.requestfactory.vm.impl.Deobfuscator.Builder; did you forget to inherit a required module?
+      [ERROR] Line 9: No source code is available for type com.google.web.bindery.requestfactory.vm.impl.OperationKey; did you forget to inherit a required module?
+      [ERROR] Line 10: No source code is available for type com.google.web.bindery.requestfactory.vm.impl.OperationData.Builder; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753198182.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753198182.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753198182_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventEditor.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventEditor_BinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.DisclosurePanel.DefaultImages
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method disclosurePanelClosed
+         Adding image 'com.google.gwt.user.client.ui.DisclosurePanel.DefaultImages.disclosurePanelClosed'
+      Preparing method disclosurePanelOpen
+         Adding image 'com.google.gwt.user.client.ui.DisclosurePanel.DefaultImages.disclosurePanelOpen'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753198958.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753198958.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753198958_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753222543.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753222543.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753222543_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753227022.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753227022.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753227022_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753265056.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753265056.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753265056_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753270547.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753270547.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753270547_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753283760.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753283760.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753283760_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753305894.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753305894.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753305894_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753309760.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753309760.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753309760_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753339691.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753339691.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753339691_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753343673.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753343673.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753343673_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753369412.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753369412.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753369412_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753557613.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753557613.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753557613_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753561382.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753561382.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753561382_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753566319.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753566319.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753566319_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753569797.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753569797.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753569797_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753574519.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753574519.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753574519_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753595639.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753595639.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753595639_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753605691.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753605691.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753605691_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753609250.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753609250.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753609250_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753618756.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753618756.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753618756_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753624677.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753624677.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753624677_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753631759.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753631759.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753631759_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753636550.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753636550.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753636550_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 25: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654163.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654163.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654163_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 25: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654317.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654317.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654317_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 26: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654595.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654595.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654595_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 26: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654719.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654719.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654719_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 27: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654959.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654959.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753654959_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 27: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655083.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655083.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655083_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 28: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655317.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655317.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655317_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 28: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655443.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655443.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655443_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 29: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655756.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655756.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655756_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 29: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655881.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655881.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753655881_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 30: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753656114.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753656114.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753656114_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 30: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753656240.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753656240.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753656240_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 29: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753657651.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753657651.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753657651_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 29: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753657808.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753657808.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753657808_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 28: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753658055.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753658055.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753658055_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 28: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753658181.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753658181.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753658181_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 29: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753659382.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753659382.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753659382_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 29: encountered ";". Was expecting one of: ":" 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753659504.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753659504.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753659504_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 30: encountered ";". Was expecting one of: "+" "-" <STRING> <IDENT> <NUMBER> <URL> <PERCENTAGE> <PT> <MM> <CM> <PC> <IN> <PX> <EMS> <EXS> <DEG> <RAD> <GRAD> <MS> <SECOND> <HZ> <KHZ> <DIMEN> <HASH> <UNICODERANGE> <FUNCTION> 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753661787.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753661787.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753661787_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      The following problems were detected
+         [WARN] Line 8 column 30: encountered ";". Was expecting one of: "+" "-" <STRING> <IDENT> <NUMBER> <URL> <PERCENTAGE> <PT> <MM> <CM> <PC> <IN> <PX> <EMS> <EXS> <DEG> <RAD> <GRAD> <MS> <SECOND> <HZ> <KHZ> <DIMEN> <HASH> <UNICODERANGE> <FUNCTION> 
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753661919.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753661919.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753661919_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753662470.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753662470.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753662470_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753662594.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753662594.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753662594_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753663518.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753663518.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753663518_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753663640.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753663640.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753663640_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753663922.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753663922.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753663922_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753664046.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753664046.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753664046_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753664272.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753664272.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753664272_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753664394.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753664394.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753664394_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753697029.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753697029.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753697029_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753700936.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753700936.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753700936_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753702609.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753702609.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753702609_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753724681.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753724681.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753724681_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753735445.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753735445.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753735445_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753747487.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753747487.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753747487_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753778491.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753778491.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753778491_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753785054.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753785054.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753785054_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753793677.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753793677.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753793677_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753796405.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753796405.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753796405_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753802255.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753802255.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753802255_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753822224.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753822224.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753822224_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753829446.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753829446.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753829446_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753837793.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753837793.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753837793_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753840077.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753840077.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753840077_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753843165.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753843165.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753843165_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753882796.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753882796.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753882796_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753974351.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753974351.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753974351_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753989149.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753989149.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402753989149_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402754055232.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402754055232.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402754055232_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402754065519.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402754065519.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402754065519_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402754097947.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402754097947.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl_BinderImpl_designTime1402754097947_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
