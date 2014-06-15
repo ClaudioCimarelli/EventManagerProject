@@ -1,8 +1,8 @@
 package it.catenate.uniroma3.eventsManager.client.request;
 
 import it.catenate.uniroma3.eventsManager.client.request.proxy.EventProxy;
-import it.catenate.uniroma3.eventsManager.server.EventService;
-import it.catenate.uniroma3.eventsManager.server.EventServiceLocator;
+import it.catenate.uniroma3.eventsManager.server.persistence.EventService;
+import it.catenate.uniroma3.eventsManager.server.persistence.EventServiceLocator;
 
 import java.util.List;
 

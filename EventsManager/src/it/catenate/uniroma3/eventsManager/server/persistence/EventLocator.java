@@ -1,4 +1,6 @@
-package it.catenate.uniroma3.eventsManager.server;
+package it.catenate.uniroma3.eventsManager.server.persistence;
+
+import it.catenate.uniroma3.eventsManager.server.Event;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package it.catenate.uniroma3.eventsManager.server;
+package it.catenate.uniroma3.eventsManager.server.persistence;
 
 import com.google.web.bindery.requestfactory.shared.ServiceLocator;
 
