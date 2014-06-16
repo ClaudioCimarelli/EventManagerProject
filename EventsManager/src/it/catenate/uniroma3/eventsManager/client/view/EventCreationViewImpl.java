@@ -21,6 +21,8 @@ import it.catenate.uniroma3.eventsManager.client.request.Factory.EventRequest;
 import it.catenate.uniroma3.eventsManager.client.request.proxy.EventProxy;
 
 import com.google.gwt.core.client.GWT;
+import com.google.gwt.editor.client.EditorDelegate;
+import com.google.gwt.editor.client.ValueAwareEditor;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.place.shared.Place;
 import com.google.gwt.uibinder.client.UiBinder;
@@ -32,9 +34,13 @@ import com.google.gwt.user.client.ui.Widget;
 import com.google.web.bindery.event.shared.EventBus;
 import com.google.web.bindery.event.shared.SimpleEventBus;
 import com.google.web.bindery.requestfactory.gwt.client.RequestFactoryEditorDriver;
+import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.datepicker.client.DateBox;
+import com.google.gwt.user.client.ui.TextArea;
+import com.google.gwt.user.client.ui.ListBox;
 
 
-public class EventCreationViewImpl extends Composite implements EventCreationPresenterImpl.Display{
+public class EventCreationViewImpl extends Composite implements EventCreationPresenterImpl.Display, ValueAwareEditor<EventProxy>{
 
 	interface Binder extends UiBinder<Widget, EventCreationViewImpl> {	}
 	
@@ -50,7 +56,7 @@ public class EventCreationViewImpl extends Composite implements EventCreationPre
 	
 	Driver driver = GWT.create(Driver.class);
 	interface Driver extends
-	RequestFactoryEditorDriver<EventProxy, EventEditor> {
+	RequestFactoryEditorDriver<EventProxy, EventCreationViewImpl> {
 }
 
 	public EventCreationViewImpl() {
@@ -59,7 +65,7 @@ public class EventCreationViewImpl extends Composite implements EventCreationPre
 		final EventBus eventBus = new SimpleEventBus();
 		requestFactory.initialize(eventBus);
 		this.requestContext = requestFactory.createEventRequest();
-		driver.initialize(requestFactory, eventEditor);
+		driver.initialize(requestFactory, this);
 		driver.edit(this.eventProxy, requestContext);
 	}
 
@@ -67,17 +73,39 @@ public class EventCreationViewImpl extends Composite implements EventCreationPre
 		this.presenter = presenter;
 	}
 	
-	@UiField
-	EventEditor eventEditor;
+	
 	@UiField Button saveButton;
 	@UiField Button clearButton;
+	@UiField TextBox name;
+	@UiField DateBox date;
+	@UiField TextArea notes;
+	@UiField ListBox organization;
 	
 	@UiHandler("saveButton")
 	void onSaveButtonClick(ClickEvent event) {
 	}
 
 	@Override
-	public EventEditor getEventEditor() {
-		return this.eventEditor;
+	public void setDelegate(EditorDelegate<EventProxy> delegate) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void flush() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onPropertyChange(String... paths) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setValue(EventProxy value) {
+		// TODO Auto-generated method stub
+		
 	}
 }

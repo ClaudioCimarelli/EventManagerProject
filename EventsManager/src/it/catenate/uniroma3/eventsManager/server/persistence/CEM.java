@@ -46,7 +46,7 @@ public class CEM
     copy.setId(c.getId());
     copy.setVersion(c.getVersion());
     copy.setDate(c.getDate());
-    copy.setOrganizzazione(c.getOrganizzazione());
+    copy.setOrganization(c.getOrganization());
     copy.setNotes(c.getNotes());
     return copy;
   }

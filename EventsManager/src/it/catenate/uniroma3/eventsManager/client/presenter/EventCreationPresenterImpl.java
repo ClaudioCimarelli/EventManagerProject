@@ -3,7 +3,6 @@ package it.catenate.uniroma3.eventsManager.client.presenter;
 import it.catenate.uniroma3.eventsManager.client.request.Factory;
 import it.catenate.uniroma3.eventsManager.client.request.Factory.EventRequest;
 import it.catenate.uniroma3.eventsManager.client.request.proxy.EventProxy;
-import it.catenate.uniroma3.eventsManager.client.view.EventEditor;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.ui.HasWidgets;
@@ -15,7 +14,6 @@ import com.google.web.bindery.requestfactory.gwt.client.RequestFactoryEditorDriv
 public class EventCreationPresenterImpl implements EventCreationPresenter {
 	
 	public interface Display {
-	    EventEditor getEventEditor(); 
 	    void setPresenter(EventCreationPresenter p);
 	    Widget asWidget();
 	}
@@ -27,9 +25,6 @@ public class EventCreationPresenterImpl implements EventCreationPresenter {
 	private EventRequest requestContext;
 	private EventProxy eventProxy;
 	
-	
-	Driver driver = GWT.create(Driver.class);
-	interface Driver extends RequestFactoryEditorDriver<EventProxy, EventEditor> {}
 	
 	public EventCreationPresenterImpl(Display display, EventBus eventbus) {
 		super();

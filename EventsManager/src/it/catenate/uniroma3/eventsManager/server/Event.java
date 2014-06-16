@@ -1,6 +1,6 @@
 package it.catenate.uniroma3.eventsManager.server;
 
-// Generated 15-giu-2014 23.24.16 by Hibernate Tools 4.0.0
+// Generated 16-giu-2014 12.19.45 by Hibernate Tools 4.0.0
 
 import java.util.Date;
 import javax.persistence.Column;
@@ -19,7 +19,7 @@ public class Event implements java.io.Serializable {
 	private Long id;
 	private Date date;
 	private String notes;
-	private String organizzazione;
+	private String organization;
 	private Integer version;
 
 	public Event() {
@@ -29,10 +29,10 @@ public class Event implements java.io.Serializable {
 		this.date = date;
 	}
 
-	public Event(Date date, String notes, String organizzazione, Integer version) {
+	public Event(Date date, String notes, String organization, Integer version) {
 		this.date = date;
 		this.notes = notes;
-		this.organizzazione = organizzazione;
+		this.organization = organization;
 		this.version = version;
 	}
 
@@ -65,13 +65,13 @@ public class Event implements java.io.Serializable {
 		this.notes = notes;
 	}
 
-	@Column(name = "organizzazione")
-	public String getOrganizzazione() {
-		return this.organizzazione;
+	@Column(name = "organization")
+	public String getOrganization() {
+		return this.organization;
 	}
 
-	public void setOrganizzazione(String organizzazione) {
-		this.organizzazione = organizzazione;
+	public void setOrganization(String organization) {
+		this.organization = organization;
 	}
 
 	@Column(name = "version")
