@@ -13,7 +13,7 @@ public class EventService
 
     public List<Event> findAllEvents() { return CEM.list(); };
 
-    public void persist(Event c) { CEM.persist(c); }
+    public Event persist(Event c) { return CEM.persist(c); }
 
     public void remove(Event c) { CEM.delete(c.getId()); }
 

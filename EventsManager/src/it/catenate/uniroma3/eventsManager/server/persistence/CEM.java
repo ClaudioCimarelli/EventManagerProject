@@ -15,13 +15,14 @@ public class CEM
 
 
 
-  public static void persist (Event entity) {
+  public static Event persist (Event entity) {
     if (entity.getId() == null) entity.setId(index.incrementAndGet());
     if (entity.getVersion() == null)
       entity.setVersion(1);
     else
       entity.setVersion(entity.getVersion() + 1);
     entities.put(entity.getId(), entity);
+    return entity;
   }
 
   public static Event fetch (Long id) {

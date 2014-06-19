@@ -15,7 +15,7 @@ import com.google.web.bindery.event.shared.EventBus;
 import it.catenate.uniroma3.eventsManager.client.presenter.EventCreationPresenterImpl;
 import it.catenate.uniroma3.eventsManager.client.presenter.MainPresenter;
 import it.catenate.uniroma3.eventsManager.client.presenter.Presenter;
-import it.catenate.uniroma3.eventsManager.client.view.EventCreationViewImpl;
+import it.catenate.uniroma3.eventsManager.client.view.EventEditor;
 
 public class EventManagerApp implements MainPresenter, ValueChangeHandler<String> {
 
@@ -61,7 +61,7 @@ public class EventManagerApp implements MainPresenter, ValueChangeHandler<String
 
 	@Override
 	public void onCreateNewEvent() {
-		Presenter presenter = new EventCreationPresenterImpl(new EventCreationViewImpl(), this.eventbus );
+		Presenter presenter = new EventCreationPresenterImpl(new EventEditor(), this.eventbus );
 		presenter.go(display.getAppArea());
 	}
 

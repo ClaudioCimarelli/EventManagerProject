@@ -20,7 +20,7 @@ public interface Factory extends RequestFactory {
         Request<Integer> count();
         Request<EventProxy> find(Long id);
         Request<List<EventProxy>> findAllEvents();
-        Request<Void> persist(EventProxy contact);
+        Request<EventProxy> persist(EventProxy contact);
         Request<Void> remove(EventProxy contact);
     }
 
