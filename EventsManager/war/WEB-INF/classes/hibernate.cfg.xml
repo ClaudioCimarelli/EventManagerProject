@@ -18,6 +18,8 @@
         <property name="hibernate.format_sql">true</property>
         <property name="hibernate.search.autoregister_listeners">false</property>
         <property name="hibernate.show_sql">true</property>
+        <mapping class="it.catenate.uniroma3.eventsManager.server.Organization" />
+        <mapping class="it.catenate.uniroma3.eventsManager.server.Contact" />
         <mapping class="it.catenate.uniroma3.eventsManager.server.Event" />
     </session-factory>
 </hibernate-configuration>

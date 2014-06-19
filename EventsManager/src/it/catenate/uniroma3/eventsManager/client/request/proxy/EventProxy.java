@@ -15,6 +15,10 @@ public interface EventProxy extends EntityProxy {
 	Long getId();
 
 	void setId(Long id);
+	
+	String getName();
+	
+	void setName(String name);
 
 	Date getDate();
 
@@ -23,10 +27,6 @@ public interface EventProxy extends EntityProxy {
 	String getNotes();
 
 	void setNotes(String notes);
-
-	String getOrganization();
-
-	void setOrganization(String organization);
 
 	Integer getVersion();
 

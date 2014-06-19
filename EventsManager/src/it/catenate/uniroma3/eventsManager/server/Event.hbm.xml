@@ -1,24 +1,27 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated 16-giu-2014 12.19.45 by Hibernate Tools 4.0.0 -->
+<!-- Generated 19-giu-2014 12.08.08 by Hibernate Tools 4.0.0 -->
 <hibernate-mapping>
-    <class name="it.catenate.uniroma3.eventsManager.server.Event" table="Event">
+    <class name="it.catenate.uniroma3.eventsManager.server.Event" table="EVENT">
         <id name="id" type="java.lang.Long">
-            <column name="id" />
-            <generator class="native"></generator>
+            <column name="ID" />
+            <generator class="assigned"></generator>
         </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
         <property name="date" type="java.util.Date">
-            <column name="date" not-null="true" unique="true" />
+            <column name="DATE" />
         </property>
         <property name="notes" type="java.lang.String">
-            <column name="notes" />
+            <column name="NOTES" />
         </property>
-        <property name="organization" type="java.lang.String">
-            <column name="organization" />
-        </property>
+        <many-to-one name="organization" class="it.catenate.uniroma3.eventsManager.server.Organization" fetch="join">
+            <column name="ORGANIZATION" />
+        </many-to-one>
         <property name="version" type="java.lang.Integer">
-            <column name="version" />
+            <column name="VERSION" />
         </property>
     </class>
 </hibernate-mapping>
